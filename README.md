@@ -37,6 +37,34 @@ The project also includes data preprocessing, train/test splitting, model traini
 * Scikit-learn
 * Matplotlib
 
+## Dataset
+
+The project uses a diabetes dataset containing medical diagnostic measurements used to predict whether a patient has diabetes.
+
+The dataset contains the following features:
+
+* `Pregnancies`
+* `Glucose`
+* `BloodPressure`
+* `SkinThickness`
+* `Insulin`
+* `BMI`
+* `DiabetesPedigreeFunction`
+* `Age`
+
+The target variable is:
+
+* `Outcome`
+
+where:
+
+```text
+0 = No Diabetes
+1 = Diabetes
+```
+
+
+
 ## License
 
 This project is licensed under the MIT License.
