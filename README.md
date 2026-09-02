@@ -15,6 +15,18 @@ An Artificial Neural Network (ANN) is built using TensorFlow/Keras and trained t
 
 The project also includes data preprocessing, train/test splitting, model training, prediction, and evaluation.
 
+## Features
+
+* 🩺 Diabetes prediction using Deep Learning
+* 🤖 Binary classification
+* 🧠 Artificial Neural Network (ANN)
+* 📊 Train/test data splitting
+* 📈 Model training and evaluation
+* 📉 Mean Squared Error (MSE) calculation
+* 🐼 Dataset handling using Pandas
+* 🔥 Neural network model built with TensorFlow/Keras
+* 📚 Beginner-friendly Deep Learning implementation
+
 ## License
 
 This project is licensed under the MIT License.
