@@ -84,6 +84,39 @@ X_train, X_test, y_train, y_test = train_test_split(
 
 The training data is used to train the neural network, while the test data is used to evaluate its performance on unseen samples.
 
+## Model
+
+The project uses an Artificial Neural Network built with TensorFlow/Keras.
+
+The model contains a dense hidden layer with ReLU activation and an output layer for the binary classification task.
+
+```python
+model = Sequential()
+
+model.add(Dense(20, input_dim=8, activation='relu'))
+model.add(Dense(1))
+```
+
+The model is compiled using the Adam optimizer and Mean Squared Error loss:
+
+```python
+model.compile(
+    loss='mean_squared_error',
+    optimizer='adam',
+    metrics=['mean_squared_error']
+)
+```
+
+The model is then trained for multiple epochs:
+
+```python
+h = model.fit(
+    X_train,
+    y_train,
+    epochs=200
+)
+```
+
 
 
 ## License
