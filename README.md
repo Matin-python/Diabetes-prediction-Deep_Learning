@@ -63,6 +63,27 @@ where:
 1 = Diabetes
 ```
 
+## Data Preparation
+
+The dataset is loaded using Pandas.
+
+The input features are separated from the target variable:
+
+```python
+X = df.drop('Outcome', axis=1)
+y = df.Outcome
+```
+
+The dataset is then divided into training and testing sets using `train_test_split`.
+
+```python
+X_train, X_test, y_train, y_test = train_test_split(
+    X, y, test_size=0.2
+)
+```
+
+The training data is used to train the neural network, while the test data is used to evaluate its performance on unseen samples.
+
 
 
 ## License
