@@ -27,6 +27,16 @@ The project also includes data preprocessing, train/test splitting, model traini
 * 🔥 Neural network model built with TensorFlow/Keras
 * 📚 Beginner-friendly Deep Learning implementation
 
+## Technologies Used
+
+* Python 3
+* NumPy
+* Pandas
+* TensorFlow
+* Keras
+* Scikit-learn
+* Matplotlib
+
 ## License
 
 This project is licensed under the MIT License.
