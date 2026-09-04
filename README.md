@@ -157,6 +157,24 @@ h = model.fit(X_train, y_train, epochs=200)
 
 The training loss can then be visualized to observe the learning process.
 
+## Evaluation
+
+After training, the model is used to make predictions on the test dataset:
+
+```python
+y_pred = model.predict(X_test)
+```
+
+The project calculates Mean Squared Error to evaluate the difference between the predicted and actual values:
+
+```python
+metrics.mean_squared_error(y_test, y_pred)
+```
+
+Mean Squared Error measures the average squared difference between the predicted values and the actual target values.
+
+For a binary classification problem, additional classification metrics such as Accuracy, Precision, Recall, F1-score, and ROC-AUC can also be used in future improvements.
+
 
 ## License
 
