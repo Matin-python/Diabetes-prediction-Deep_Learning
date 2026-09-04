@@ -190,6 +190,30 @@ plt.show()
 
 This visualization helps show how the model's loss changes as the number of training epochs increases.
 
+## Example Output
+
+```text
+Model: "sequential"
+
+_______________________________________________________________
+ Layer (type)                 Output Shape              Param #
+=================================================================
+ dense (Dense)                (None, 20)                ...
+ dense_1 (Dense)              (None, 1)                 ...
+=================================================================
+
+Train the model...
+Epoch 1/200
+...
+Epoch 200/200
+...
+
+Mean Squared Error = X.XX
+Final Training Loss = X.XX
+```
+
+The exact results may vary between runs because the dataset is randomly divided into training and testing sets.
+
 
 ## License
 
