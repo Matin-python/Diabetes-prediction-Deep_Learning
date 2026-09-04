@@ -143,6 +143,20 @@ The hidden layer contains 20 neurons and uses the ReLU activation function to le
 
 The final layer produces the model's output for the diabetes prediction.
 
+## Model Training
+
+During training, the neural network learns from the training dataset by adjusting its weights to minimize the loss function.
+
+The training process is performed for 200 epochs.
+
+The training history is stored in the variable `h`, which can be used to examine how the loss changes during training.
+
+```python
+h = model.fit(X_train, y_train, epochs=200)
+```
+
+The training loss can then be visualized to observe the learning process.
+
 
 ## License
 
