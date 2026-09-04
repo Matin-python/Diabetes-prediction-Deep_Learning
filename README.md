@@ -175,6 +175,21 @@ Mean Squared Error measures the average squared difference between the predicted
 
 For a binary classification problem, additional classification metrics such as Accuracy, Precision, Recall, F1-score, and ROC-AUC can also be used in future improvements.
 
+## Training Loss
+
+The training history can be used to visualize the model's loss during training.
+
+```python
+er = h.history['loss']
+er = er[5:]
+
+plt.close()
+plt.plot(er)
+plt.show()
+```
+
+This visualization helps show how the model's loss changes as the number of training epochs increases.
+
 
 ## License
 
