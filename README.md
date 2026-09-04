@@ -214,6 +214,18 @@ Final Training Loss = X.XX
 
 The exact results may vary between runs because the dataset is randomly divided into training and testing sets.
 
+## Project Structure
+
+```text
+Diabetes-prediction-Deep_Learning/
+│
+├── diabetes_prediction.py
+├── diabetes_prediction.ipynb
+├── requirements.txt
+├── LICENSE
+└── README.md
+```
+
 
 ## License
 
