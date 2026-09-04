@@ -117,6 +117,31 @@ h = model.fit(
 )
 ```
 
+## Model Architecture
+
+The neural network can be represented as:
+
+```text
+Input Features
+      │
+      ▼
+Dense Layer
+20 Neurons
+ReLU Activation
+      │
+      ▼
+Output Layer
+1 Neuron
+      │
+      ▼
+Diabetes Prediction
+```
+
+The input layer receives the medical diagnostic features.
+
+The hidden layer contains 20 neurons and uses the ReLU activation function to learn non-linear relationships between the input features.
+
+The final layer produces the model's output for the diabetes prediction.
 
 
 ## License
