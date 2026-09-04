@@ -226,6 +226,32 @@ Diabetes-prediction-Deep_Learning/
 └── README.md
 ```
 
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Matin-python/Diabetes-prediction-Deep_Learning.git
+```
+
+Move into the project directory:
+
+```bash
+cd Diabetes-prediction-Deep_Learning
+```
+
+Install the required packages:
+
+```bash
+pip install -r requirements.txt
+```
+
+Or install them manually:
+
+```bash
+pip install numpy pandas tensorflow keras scikit-learn matplotlib
+```
+
 
 ## License
 
