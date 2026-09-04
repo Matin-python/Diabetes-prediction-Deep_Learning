@@ -252,6 +252,32 @@ Or install them manually:
 pip install numpy pandas tensorflow keras scikit-learn matplotlib
 ```
 
+## How to Run
+
+Run the Python script:
+
+```bash
+python diabetes_prediction.py
+```
+
+The program will:
+
+* Load the diabetes dataset.
+* Display basic information about the dataset.
+* Separate the input features and target variable.
+* Split the dataset into training and testing sets.
+* Build the Artificial Neural Network.
+* Display the model architecture.
+* Train the neural network.
+* Make predictions on the test dataset.
+* Calculate Mean Squared Error.
+* Display the training loss.
+
+The project can also be explored using the Jupyter Notebook:
+
+```bash
+jupyter notebook diabetes_prediction.ipynb
+```
 
 ## License
 
